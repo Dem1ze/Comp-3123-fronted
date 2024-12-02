@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #343a40 !important; /* Dark background color */
+    color: white;
+    padding: 15px;
+  }
+  
+  .navbar-brand {
+    color: white;
+  }
+  
+  .btn {
+    margin-left: 10px;
+  }
+  
+  /* Add a border or some styles for visibility */
+  .navbar {
+    border-bottom: 2px solid #ddd;
+  }
+  

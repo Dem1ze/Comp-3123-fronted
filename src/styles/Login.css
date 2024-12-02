@@ -1,0 +1,74 @@
+/* Apply gradient background like the Home Page */
+html, body {
+  height: 100%;  /* Full viewport height */
+  margin: 0;     /* Remove default margin */
+  padding: 0;    /* Remove default padding */
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #83a4d4, #b6fbff); /* Light blue gradient */
+}
+
+/* Style the form container */
+.login-container {
+  background-color: white;
+  border-radius: 8px; /* Rounded corners for the box */
+  padding: 40px;      /* Add space inside the box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 100%;
+  max-width: 400px;   /* Set max width for form */
+}
+
+/* Style for the form title */
+h2 {
+  text-align: center;
+  color: #005f73; /* Dark teal color for professional theme */
+  margin-bottom: 20px; /* Space below title */
+}
+
+/* Input fields styling */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; /* Space between fields */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Button styling */
+button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Container to align buttons side by side */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Add space between the buttons */
+}
+
+/* Styling for submit button */
+button[type="submit"] {
+  background-color: #007bff; /* Blue background for submit button */
+  color: white;
+  flex: 1;  /* Allow the submit button to take up the available space */
+}
+
+/* Styling for exit button */
+button[type="button"] {
+  background-color: #dc3545; /* Red background for exit button */
+  color: white;
+  flex: 1;  /* Allow the exit button to take up the available space */
+}
+
+button:hover {
+  opacity: 0.9; /* Slight opacity effect on hover */
+}

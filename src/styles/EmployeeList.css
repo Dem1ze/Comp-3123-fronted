@@ -1,0 +1,130 @@
+/* Apply gradient background like the Home Page */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.employee-list-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #83a4d4, #b6fbff); /* Light blue gradient */
+}
+
+/* Style the form container */
+.employee-list-container {
+    background-color: white;
+    border-radius: 8px; /* Rounded corners for the box */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 1100px;   /* Set max width for form */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #005f73; /* Dark teal color for the header */
+    color: white;
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px; /* Increase padding to make buttons larger */
+    font-size: 1.1rem;   /* Slightly larger text */
+    border-radius: 5px;  /* Rounded corners */
+    border: none;
+    cursor: pointer;
+}
+
+/* Submit/Search Button */
+button[type="submit"], button[type="button"] {
+    width: 150px; /* Fixed width */
+    margin-right: 10px; /* Margin between buttons */
+}
+
+button[type="submit"] {
+    background-color: #007bff; /* Blue color for search */
+    color: white;
+}
+
+button[type="button"] {
+    background-color: #6c757d; /* Gray color for reset */
+    color: white;
+}
+
+button[type="submit"]:hover, button[type="button"]:hover {
+    opacity: 0.9; /* Slight opacity effect on hover */
+}
+
+/* Reset Button */
+button[type="reset"] {
+    background-color: #dc3545; /* Red color for Reset */
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #b02a37; /* Darker red */
+}
+
+/* Add employee button */
+button.add-employee {
+    background-color: #28a745; /* Green color for add employee */
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 2.5px;
+    margin-left: 1px;
+}
+
+button.add-employee:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Make sure the action buttons have some spacing and colors */
+button.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+button.btn-info:hover {
+    background-color: #138496;
+}
+
+button.btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+button.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+button.btn-primary, button.btn-secondary {
+    width: 150px; /* Set the width */
+    height: 38px; /* Set a fixed height to match */
+    font-size: 1.1rem; /* Slightly larger font */
+}

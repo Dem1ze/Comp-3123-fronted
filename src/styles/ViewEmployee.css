@@ -1,0 +1,60 @@
+/* Apply gradient background to the View Employee page */
+.view-employee-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #83a383d4, #b6f3b6ff); /* Light blue gradient */
+  }
+  
+  /* Style the container for employee details */
+  .view-employee-container {
+    background-color: white;
+    border-radius: 8px; /* Rounded corners for the box */
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%;
+    max-width: 600px; /* Set max width */
+  }
+  
+  /* Style the employee details */
+  .employee-info {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Button group styling */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Specific button styling for View Employee */
+  .btn-view-employees-page {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: #6c757d; /* Gray color for Back to List */
+    color: white;
+    width: 48%;
+  }
+  
+  .btn-view-employees-page:hover {
+    background-color: #5a6268; /* Darken on hover */
+  }
+  
+  .btn-edit-employee-page {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: #ffc107; /* Yellow color for Edit */
+    color: black;
+    width: 48%;
+  }
+  
+  .btn-edit-employee-page:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+  }
+  

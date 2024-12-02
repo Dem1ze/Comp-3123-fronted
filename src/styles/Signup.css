@@ -1,0 +1,73 @@
+/* Container for Signup page */
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #83a4d4, #b6fbff); /* Light blue gradient */
+}
+
+/* Fixed container for Signup form */
+.signup-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px; /* Set max width */
+    min-width: 400px; /* Ensure it doesn't get too small */
+    max-height: 90vh; /* Maximum height of container */
+    overflow-y: auto; /* Adds scroll if the content overflows vertically */
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: #005f73;
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Space between fields */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+.btn-signup-back,
+.btn-signup-submit {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 48%; /* Make buttons the same width */
+}
+
+.btn-signup-back {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-signup-back:hover {
+    background-color: #5a6268;
+}
+
+.btn-signup-submit {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-signup-submit:hover {
+    background-color: #0056b3;
+}
